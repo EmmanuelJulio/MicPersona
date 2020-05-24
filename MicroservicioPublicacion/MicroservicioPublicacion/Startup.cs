@@ -2,10 +2,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using APLICACION.SERVICES;
+using DATOS;
+using DATOS.COMANDOS;
+using DOMINIO.COMANDOS;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -26,6 +31,14 @@ namespace MicroservicioPublicacion
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            var conecctionString = Configuration.GetSection("ConnectionString").Value;
+            services.AddDbContext<Contexto>(option => option.UseSqlServer(conecctionString));
+            services.AddTransient<IGenericRepository, GenericRepository>();
+            services.AddTransient<IClienteService, ClienteService>();
+            services.AddTransient<IAdministradorService, AdministradorService>();
+            services.AddTransient<IUsuarioService, UsuarioService>();
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
