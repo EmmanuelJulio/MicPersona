@@ -1,23 +1,82 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EmmaGrande\\source\\repos\\EmmanuelJulio\\MicPersona\\MicroservicioPublicacion\\MicroservicioPublicacion\\MicroservicioPublicacion.csproj": {}
+    "C:\\Users\\ayala\\source\\repos\\MicPersona\\MicroservicioPublicacion\\MicroservicioPublicacion\\MicroservicioPublicacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EmmaGrande\\source\\repos\\EmmanuelJulio\\MicPersona\\MicroservicioPublicacion\\MicroservicioPublicacion\\MicroservicioPublicacion.csproj": {
+    "C:\\Users\\ayala\\source\\repos\\MicPersona\\MicroservicioPublicacion\\APLICACION\\APLICACION.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EmmaGrande\\source\\repos\\EmmanuelJulio\\MicPersona\\MicroservicioPublicacion\\MicroservicioPublicacion\\MicroservicioPublicacion.csproj",
-        "projectName": "MicroservicioPublicacion",
-        "projectPath": "C:\\Users\\EmmaGrande\\source\\repos\\EmmanuelJulio\\MicPersona\\MicroservicioPublicacion\\MicroservicioPublicacion\\MicroservicioPublicacion.csproj",
-        "packagesPath": "C:\\Users\\EmmaGrande\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EmmaGrande\\source\\repos\\EmmanuelJulio\\MicPersona\\MicroservicioPublicacion\\MicroservicioPublicacion\\obj\\",
+        "projectUniqueName": "C:\\Users\\ayala\\source\\repos\\MicPersona\\MicroservicioPublicacion\\APLICACION\\APLICACION.csproj",
+        "projectName": "APLICACION",
+        "projectPath": "C:\\Users\\ayala\\source\\repos\\MicPersona\\MicroservicioPublicacion\\APLICACION\\APLICACION.csproj",
+        "packagesPath": "C:\\Users\\ayala\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ayala\\source\\repos\\MicPersona\\MicroservicioPublicacion\\APLICACION\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\EmmaGrande\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ayala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\ayala\\source\\repos\\MicPersona\\MicroservicioPublicacion\\ClassLibrary1\\DOMINIO.csproj": {
+                "projectPath": "C:\\Users\\ayala\\source\\repos\\MicPersona\\MicroservicioPublicacion\\ClassLibrary1\\DOMINIO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ayala\\source\\repos\\MicPersona\\MicroservicioPublicacion\\ClassLibrary1\\DOMINIO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ayala\\source\\repos\\MicPersona\\MicroservicioPublicacion\\ClassLibrary1\\DOMINIO.csproj",
+        "projectName": "DOMINIO",
+        "projectPath": "C:\\Users\\ayala\\source\\repos\\MicPersona\\MicroservicioPublicacion\\ClassLibrary1\\DOMINIO.csproj",
+        "packagesPath": "C:\\Users\\ayala\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ayala\\source\\repos\\MicPersona\\MicroservicioPublicacion\\ClassLibrary1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ayala\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -51,6 +110,77 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ayala\\source\\repos\\MicPersona\\MicroservicioPublicacion\\MicroservicioPublicacion\\MicroservicioPublicacion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ayala\\source\\repos\\MicPersona\\MicroservicioPublicacion\\MicroservicioPublicacion\\MicroservicioPublicacion.csproj",
+        "projectName": "MicroservicioPublicacion",
+        "projectPath": "C:\\Users\\ayala\\source\\repos\\MicPersona\\MicroservicioPublicacion\\MicroservicioPublicacion\\MicroservicioPublicacion.csproj",
+        "packagesPath": "C:\\Users\\ayala\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ayala\\source\\repos\\MicPersona\\MicroservicioPublicacion\\MicroservicioPublicacion\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ayala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\ayala\\source\\repos\\MicPersona\\MicroservicioPublicacion\\APLICACION\\APLICACION.csproj": {
+                "projectPath": "C:\\Users\\ayala\\source\\repos\\MicPersona\\MicroservicioPublicacion\\APLICACION\\APLICACION.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
@@ -58,7 +188,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
