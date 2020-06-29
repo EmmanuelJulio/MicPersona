@@ -27,21 +27,17 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ayala\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\ayala\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ayala\\Source\\Repos\\MicPersona\\MicroservicioPublicacion\\APLICACION\\APLICACION.csproj",
+      "projectUniqueName": "C:\\Users\\ayala\\Source\\Repos\\EmmanuelJulio\\MicPersona\\MicroservicioPublicacion\\APLICACION\\APLICACION.csproj",
       "projectName": "APLICACION",
-      "projectPath": "C:\\Users\\ayala\\Source\\Repos\\MicPersona\\MicroservicioPublicacion\\APLICACION\\APLICACION.csproj",
+      "projectPath": "C:\\Users\\ayala\\Source\\Repos\\EmmanuelJulio\\MicPersona\\MicroservicioPublicacion\\APLICACION\\APLICACION.csproj",
       "packagesPath": "C:\\Users\\ayala\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ayala\\Source\\Repos\\MicPersona\\MicroservicioPublicacion\\APLICACION\\obj\\",
+      "outputPath": "C:\\Users\\ayala\\Source\\Repos\\EmmanuelJulio\\MicPersona\\MicroservicioPublicacion\\APLICACION\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\ayala\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -56,8 +52,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\ayala\\Source\\Repos\\MicPersona\\MicroservicioPublicacion\\ClassLibrary1\\DOMINIO.csproj": {
-              "projectPath": "C:\\Users\\ayala\\Source\\Repos\\MicPersona\\MicroservicioPublicacion\\ClassLibrary1\\DOMINIO.csproj"
+            "C:\\Users\\ayala\\Source\\Repos\\EmmanuelJulio\\MicPersona\\MicroservicioPublicacion\\ClassLibrary1\\DOMINIO.csproj": {
+              "projectPath": "C:\\Users\\ayala\\Source\\Repos\\EmmanuelJulio\\MicPersona\\MicroservicioPublicacion\\ClassLibrary1\\DOMINIO.csproj"
             }
           }
         }
@@ -80,12 +76,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.2, 3.1.2]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

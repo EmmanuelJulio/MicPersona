@@ -7,3 +7,12 @@ C:\Users\ayala\Source\Repos\MicPersona\MicroservicioPublicacion\ClassLibrary1\ob
 C:\Users\ayala\Source\Repos\MicPersona\MicroservicioPublicacion\ClassLibrary1\obj\Debug\netcoreapp3.1\DOMINIO.AssemblyInfo.cs
 C:\Users\ayala\Source\Repos\MicPersona\MicroservicioPublicacion\ClassLibrary1\obj\Debug\netcoreapp3.1\DOMINIO.dll
 C:\Users\ayala\Source\Repos\MicPersona\MicroservicioPublicacion\ClassLibrary1\obj\Debug\netcoreapp3.1\DOMINIO.pdb
+C:\Users\ayala\Source\Repos\EmmanuelJulio\MicPersona\MicroservicioPublicacion\ClassLibrary1\bin\Debug\netcoreapp3.1\DOMINIO.deps.json
+C:\Users\ayala\Source\Repos\EmmanuelJulio\MicPersona\MicroservicioPublicacion\ClassLibrary1\bin\Debug\netcoreapp3.1\DOMINIO.dll
+C:\Users\ayala\Source\Repos\EmmanuelJulio\MicPersona\MicroservicioPublicacion\ClassLibrary1\bin\Debug\netcoreapp3.1\DOMINIO.pdb
+C:\Users\ayala\Source\Repos\EmmanuelJulio\MicPersona\MicroservicioPublicacion\ClassLibrary1\obj\Debug\netcoreapp3.1\DOMINIO.csprojAssemblyReference.cache
+C:\Users\ayala\Source\Repos\EmmanuelJulio\MicPersona\MicroservicioPublicacion\ClassLibrary1\obj\Debug\netcoreapp3.1\DOMINIO.AssemblyInfoInputs.cache
+C:\Users\ayala\Source\Repos\EmmanuelJulio\MicPersona\MicroservicioPublicacion\ClassLibrary1\obj\Debug\netcoreapp3.1\DOMINIO.AssemblyInfo.cs
+C:\Users\ayala\Source\Repos\EmmanuelJulio\MicPersona\MicroservicioPublicacion\ClassLibrary1\obj\Debug\netcoreapp3.1\DOMINIO.csproj.CoreCompileInputs.cache
+C:\Users\ayala\Source\Repos\EmmanuelJulio\MicPersona\MicroservicioPublicacion\ClassLibrary1\obj\Debug\netcoreapp3.1\DOMINIO.dll
+C:\Users\ayala\Source\Repos\EmmanuelJulio\MicPersona\MicroservicioPublicacion\ClassLibrary1\obj\Debug\netcoreapp3.1\DOMINIO.pdb

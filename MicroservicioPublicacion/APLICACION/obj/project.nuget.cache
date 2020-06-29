@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Q2Ut+3tKUydnUa6a7EpnkVyej7k1NamXdF+jWkx2lnqgV4ZxcB0hc9uHYexx3SVQsBtvvIDMVrs9nSKvy5w72g==",
+  "dgSpecHash": "eTl89InPx74N6a6RMDZqCcNY8Y/5nrmLRe5V0UoEg3v9zy64bF0QrIIyfaSdhb+qqdTI5Ab+HYIkxJkh6vef5Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ayala\\Source\\Repos\\MicPersona\\MicroservicioPublicacion\\APLICACION\\APLICACION.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\ayala\\Source\\Repos\\EmmanuelJulio\\MicPersona\\MicroservicioPublicacion\\APLICACION\\APLICACION.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ayala\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
   "logs": []
 }
