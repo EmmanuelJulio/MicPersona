@@ -22,3 +22,15 @@ C:\Users\ayala\Source\Repos\EmmanuelJulio\MicPersona\MicroservicioPublicacion\AP
 C:\Users\ayala\Source\Repos\EmmanuelJulio\MicPersona\MicroservicioPublicacion\APLICACION\obj\Debug\netcoreapp3.1\APLICACION.csproj.CopyComplete
 C:\Users\ayala\Source\Repos\EmmanuelJulio\MicPersona\MicroservicioPublicacion\APLICACION\obj\Debug\netcoreapp3.1\APLICACION.dll
 C:\Users\ayala\Source\Repos\EmmanuelJulio\MicPersona\MicroservicioPublicacion\APLICACION\obj\Debug\netcoreapp3.1\APLICACION.pdb
+C:\Users\facun\source\repos\repositoriosEma\MicPersona\MicroservicioPublicacion\APLICACION\obj\Debug\netcoreapp3.1\APLICACION.csprojAssemblyReference.cache
+C:\Users\facun\source\repos\repositoriosEma\MicPersona\MicroservicioPublicacion\APLICACION\obj\Debug\netcoreapp3.1\APLICACION.AssemblyInfoInputs.cache
+C:\Users\facun\source\repos\repositoriosEma\MicPersona\MicroservicioPublicacion\APLICACION\obj\Debug\netcoreapp3.1\APLICACION.AssemblyInfo.cs
+C:\Users\facun\source\repos\repositoriosEma\MicPersona\MicroservicioPublicacion\APLICACION\obj\Debug\netcoreapp3.1\APLICACION.dll
+C:\Users\facun\source\repos\repositoriosEma\MicPersona\MicroservicioPublicacion\APLICACION\obj\Debug\netcoreapp3.1\APLICACION.pdb
+C:\Users\facun\source\repos\repositoriosEma\MicPersona\MicroservicioPublicacion\APLICACION\bin\Debug\netcoreapp3.1\APLICACION.deps.json
+C:\Users\facun\source\repos\repositoriosEma\MicPersona\MicroservicioPublicacion\APLICACION\bin\Debug\netcoreapp3.1\APLICACION.dll
+C:\Users\facun\source\repos\repositoriosEma\MicPersona\MicroservicioPublicacion\APLICACION\bin\Debug\netcoreapp3.1\APLICACION.pdb
+C:\Users\facun\source\repos\repositoriosEma\MicPersona\MicroservicioPublicacion\APLICACION\bin\Debug\netcoreapp3.1\DOMINIO.dll
+C:\Users\facun\source\repos\repositoriosEma\MicPersona\MicroservicioPublicacion\APLICACION\bin\Debug\netcoreapp3.1\DOMINIO.pdb
+C:\Users\facun\source\repos\repositoriosEma\MicPersona\MicroservicioPublicacion\APLICACION\obj\Debug\netcoreapp3.1\APLICACION.csproj.CopyComplete
+C:\Users\facun\source\repos\repositoriosEma\MicPersona\MicroservicioPublicacion\APLICACION\obj\Debug\netcoreapp3.1\APLICACION.csproj.CoreCompileInputs.cache

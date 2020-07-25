@@ -19,56 +19,24 @@ namespace DATOS.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("DOMINIO.ENTIDADES.Administrador", b =>
+            modelBuilder.Entity("DOMINIO.ENTIDADES.Role", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("RoleId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Nombre")
+                    b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Usuario")
+                    b.Property<int?>("UserRoleUsuarioId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("UsuarioNavigatorId")
-                        .HasColumnType("int");
+                    b.HasKey("RoleId");
 
-                    b.HasKey("Id");
+                    b.HasIndex("UserRoleUsuarioId");
 
-                    b.HasIndex("UsuarioNavigatorId");
-
-                    b.ToTable("Administrador");
-                });
-
-            modelBuilder.Entity("DOMINIO.ENTIDADES.Cliente", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Apellido")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Email")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Nombre")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Usuario")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("UsuarioNavigatorId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UsuarioNavigatorId");
-
-                    b.ToTable("Cliente");
+                    b.ToTable("role");
                 });
 
             modelBuilder.Entity("DOMINIO.ENTIDADES.Usuario", b =>
@@ -81,26 +49,49 @@ namespace DATOS.Migrations
                     b.Property<string>("Nombre")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Password")
+                    b.Property<int?>("UserRoleUsuarioId")
                         .HasColumnType("int");
+
+                    b.Property<string>("gmail")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("uid")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Usuario");
+                    b.HasIndex("UserRoleUsuarioId");
+
+                    b.ToTable("user");
                 });
 
-            modelBuilder.Entity("DOMINIO.ENTIDADES.Administrador", b =>
+            modelBuilder.Entity("DOMINIO.ENTIDADES.UsuarioRoles", b =>
                 {
-                    b.HasOne("DOMINIO.ENTIDADES.Usuario", "UsuarioNavigator")
-                        .WithMany()
-                        .HasForeignKey("UsuarioNavigatorId");
+                    b.Property<int>("UsuarioId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("RoleId")
+                        .HasColumnType("int");
+
+                    b.HasKey("UsuarioId");
+
+                    b.ToTable("UserRole");
                 });
 
-            modelBuilder.Entity("DOMINIO.ENTIDADES.Cliente", b =>
+            modelBuilder.Entity("DOMINIO.ENTIDADES.Role", b =>
                 {
-                    b.HasOne("DOMINIO.ENTIDADES.Usuario", "UsuarioNavigator")
-                        .WithMany()
-                        .HasForeignKey("UsuarioNavigatorId");
+                    b.HasOne("DOMINIO.ENTIDADES.UsuarioRoles", "UserRole")
+                        .WithMany("Role")
+                        .HasForeignKey("UserRoleUsuarioId");
+                });
+
+            modelBuilder.Entity("DOMINIO.ENTIDADES.Usuario", b =>
+                {
+                    b.HasOne("DOMINIO.ENTIDADES.UsuarioRoles", "UserRole")
+                        .WithMany("User")
+                        .HasForeignKey("UserRoleUsuarioId");
                 });
 #pragma warning restore 612, 618
         }

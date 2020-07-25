@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ayala\\Source\\Repos\\EmmanuelJulio\\MicPersona\\MicroservicioPublicacion\\APLICACION\\APLICACION.csproj": {}
+    "C:\\Users\\facun\\source\\repos\\repositoriosEma\\MicPersona\\MicroservicioPublicacion\\APLICACION\\APLICACION.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ayala\\Source\\Repos\\EmmanuelJulio\\MicPersona\\MicroservicioPublicacion\\APLICACION\\APLICACION.csproj": {
+    "C:\\Users\\facun\\source\\repos\\repositoriosEma\\MicPersona\\MicroservicioPublicacion\\APLICACION\\APLICACION.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ayala\\Source\\Repos\\EmmanuelJulio\\MicPersona\\MicroservicioPublicacion\\APLICACION\\APLICACION.csproj",
+        "projectUniqueName": "C:\\Users\\facun\\source\\repos\\repositoriosEma\\MicPersona\\MicroservicioPublicacion\\APLICACION\\APLICACION.csproj",
         "projectName": "APLICACION",
-        "projectPath": "C:\\Users\\ayala\\Source\\Repos\\EmmanuelJulio\\MicPersona\\MicroservicioPublicacion\\APLICACION\\APLICACION.csproj",
-        "packagesPath": "C:\\Users\\ayala\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ayala\\Source\\Repos\\EmmanuelJulio\\MicPersona\\MicroservicioPublicacion\\APLICACION\\obj\\",
+        "projectPath": "C:\\Users\\facun\\source\\repos\\repositoriosEma\\MicPersona\\MicroservicioPublicacion\\APLICACION\\APLICACION.csproj",
+        "packagesPath": "C:\\Users\\facun\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\facun\\source\\repos\\repositoriosEma\\MicPersona\\MicroservicioPublicacion\\APLICACION\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ayala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\facun\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\ayala\\Source\\Repos\\EmmanuelJulio\\MicPersona\\MicroservicioPublicacion\\ClassLibrary1\\DOMINIO.csproj": {
-                "projectPath": "C:\\Users\\ayala\\Source\\Repos\\EmmanuelJulio\\MicPersona\\MicroservicioPublicacion\\ClassLibrary1\\DOMINIO.csproj"
+              "C:\\Users\\facun\\source\\repos\\repositoriosEma\\MicPersona\\MicroservicioPublicacion\\ClassLibrary1\\DOMINIO.csproj": {
+                "projectPath": "C:\\Users\\facun\\source\\repos\\repositoriosEma\\MicPersona\\MicroservicioPublicacion\\ClassLibrary1\\DOMINIO.csproj"
               }
             }
           }
@@ -41,6 +41,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "FirebaseAdmin": {
+              "target": "Package",
+              "version": "[1.14.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -51,32 +61,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ayala\\Source\\Repos\\EmmanuelJulio\\MicPersona\\MicroservicioPublicacion\\ClassLibrary1\\DOMINIO.csproj": {
+    "C:\\Users\\facun\\source\\repos\\repositoriosEma\\MicPersona\\MicroservicioPublicacion\\ClassLibrary1\\DOMINIO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ayala\\Source\\Repos\\EmmanuelJulio\\MicPersona\\MicroservicioPublicacion\\ClassLibrary1\\DOMINIO.csproj",
+        "projectUniqueName": "C:\\Users\\facun\\source\\repos\\repositoriosEma\\MicPersona\\MicroservicioPublicacion\\ClassLibrary1\\DOMINIO.csproj",
         "projectName": "DOMINIO",
-        "projectPath": "C:\\Users\\ayala\\Source\\Repos\\EmmanuelJulio\\MicPersona\\MicroservicioPublicacion\\ClassLibrary1\\DOMINIO.csproj",
-        "packagesPath": "C:\\Users\\ayala\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ayala\\Source\\Repos\\EmmanuelJulio\\MicPersona\\MicroservicioPublicacion\\ClassLibrary1\\obj\\",
+        "projectPath": "C:\\Users\\facun\\source\\repos\\repositoriosEma\\MicPersona\\MicroservicioPublicacion\\ClassLibrary1\\DOMINIO.csproj",
+        "packagesPath": "C:\\Users\\facun\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\facun\\source\\repos\\repositoriosEma\\MicPersona\\MicroservicioPublicacion\\ClassLibrary1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ayala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\facun\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -99,6 +106,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "FirebaseAdmin": {
+              "target": "Package",
+              "version": "[1.14.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -109,18 +126,15 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

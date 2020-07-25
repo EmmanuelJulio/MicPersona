@@ -1,10 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "3BXfgXfBM2aaaWt8YFQRcJMwpKtCri26SgrRidc7iIExeD1aFgp5D73jW3kE8tQqu93j5FUYetTJ/1g2gUYEYw==",
+  "dgSpecHash": "cJ+h8CJW6pWo3PFyR/4YOTKDhYExvkKsHz1cxQb6GaU1kbiy9RfhVwmXRPT4L6+XM8tMegEgEa0EkKUXMbqUew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ayala\\Source\\Repos\\EmmanuelJulio\\MicPersona\\MicroservicioPublicacion\\ClassLibrary1\\DOMINIO.csproj",
+  "projectFilePath": "C:\\Users\\facun\\source\\repos\\repositoriosEma\\MicPersona\\MicroservicioPublicacion\\ClassLibrary1\\DOMINIO.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ayala\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+    "C:\\Users\\facun\\.nuget\\packages\\firebaseadmin\\1.14.0\\firebaseadmin.1.14.0.nupkg.sha512",
+    "C:\\Users\\facun\\.nuget\\packages\\google.api.gax\\2.7.0\\google.api.gax.2.7.0.nupkg.sha512",
+    "C:\\Users\\facun\\.nuget\\packages\\google.api.gax.rest\\2.7.0\\google.api.gax.rest.2.7.0.nupkg.sha512",
+    "C:\\Users\\facun\\.nuget\\packages\\google.apis\\1.40.0\\google.apis.1.40.0.nupkg.sha512",
+    "C:\\Users\\facun\\.nuget\\packages\\google.apis.auth\\1.40.0\\google.apis.auth.1.40.0.nupkg.sha512",
+    "C:\\Users\\facun\\.nuget\\packages\\google.apis.core\\1.40.0\\google.apis.core.1.40.0.nupkg.sha512",
+    "C:\\Users\\facun\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.6\\microsoft.aspnetcore.jsonpatch.3.1.6.nupkg.sha512",
+    "C:\\Users\\facun\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.6\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.6.nupkg.sha512",
+    "C:\\Users\\facun\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\facun\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\facun\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\facun\\.nuget\\packages\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",
+    "C:\\Users\\facun\\.nuget\\packages\\system.interactive.async\\3.2.0\\system.interactive.async.3.2.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -8,14 +8,14 @@ namespace DATOS
 {
     public class Contexto :DbContext
     {
-        public DbSet<Usuario> Usuario { get; set; }
-        public DbSet<Administrador> Administrador{ get; set; }
-        public DbSet<Cliente> Cliente { get; set; }
+        public DbSet<UsuarioRoles> UserRole { get; set; }
+        public DbSet<Role> role{ get; set; }
+        public DbSet<Usuario> user { get; set; }
 
         public Contexto(DbContextOptions<Contexto> options) : base(options)
         {
 
         }
-
+    
     }
 }
